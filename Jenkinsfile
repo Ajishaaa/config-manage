@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/PriyaKumari-2002/config-manage.git'
+                git branch: 'main', url: 'https://github.com/Ajishaaa/config-manage.git'
             }
         }
 
